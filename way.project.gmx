@@ -15,6 +15,7 @@
   <objects name="objects">
     <object>objects\oPathZhuPan</object>
     <object>objects\oPathBig</object>
+    <object>objects\oControl</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
