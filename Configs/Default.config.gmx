@@ -651,7 +651,9 @@
     <option_xbone_title_id>1234ABCD</option_xbone_title_id>
   </Options>
   <ConfigConstants>
-    <constants number="7">
+    <constants number="9">
+      <constant name="ZHUPAN">0</constant>
+      <constant name="BIG">1</constant>
       <constant name="RED">0</constant>
       <constant name="BLUE">1</constant>
       <constant name="BIGHE">2</constant>

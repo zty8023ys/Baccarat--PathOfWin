@@ -9,13 +9,26 @@
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\sprite1</sprite>
     <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\sButton</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_button.gml</script>
+    <script>scripts\scr_draw.gml</script>
+    <script>scripts\scr_update.gml</script>
+    <script>scripts\scr_next_row.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+    <font>fonts\font1</font>
+  </fonts>
   <objects name="objects">
     <object>objects\oPathZhuPan</object>
     <object>objects\oPathBig</object>
     <object>objects\oControl</object>
+    <object>objects\oDot</object>
+    <object>objects\oButton</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

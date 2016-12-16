@@ -25,18 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>gap = sprite_width;
-down = 6;
+            <string>gap            = sprite_width;  // 画图间隔
+down           = 6;             // 最多列数
 
-for (i = 0; i &lt; 100;i++) {
-    // 0-99共100个
-    count[i] = NULL;
-}
+count          = 0;  // 总数
+row            = 0;  // 行索引
+rightRow       = 0;  // 写入行
+rightCol       = 0;  // 写入列
+rowHasCol[row] = 0;  // 某行有几列
+j              = 0;  // 行指针
+k              = 0;  // 列指针
 
-for (i = 0; i &lt; 10; i++) {
-    count[i] = choose(ZHUANG,XIAN,HE);
-}
-i = 0;
+dot[row,rowHasCol[row]] = NULL;  // 点数组
+updater        = NULL; // 新增点类型
 </string>
           </argument>
         </arguments>
@@ -59,11 +60,12 @@ i = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>while (count[i]!=NULL) {
-    draw_sprite(sprite0,count[i],x+floor(i/6)*gap,y+(i%down)*gap);
-    i++;
+            <string>for (j = 0; j &lt;= row; j++) {
+    for (k = 0; k &lt; rowHasCol[j]; k++) {
+        draw_sprite(sprite0,dot[j,k],x+j*gap,y+k*gap);
+        //draw_text(x+j*gap,y+k*gap,string(k)+"."+string(j));
+    }
 }
-i = 0;
 </string>
           </argument>
         </arguments>
