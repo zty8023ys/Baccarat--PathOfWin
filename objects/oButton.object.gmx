@@ -156,9 +156,9 @@ draw_set_valign(fa_middle);
 // draw_text(x,y,string(pos)); 
 
 switch(pos) {
-    case ZHUANG: draw_text(x,y,"Zhuang"); break;
-    case XIAN: draw_text(x,y,"Xian"); break;
-    case HE: draw_text(x,y,"He"); break;
+    case ZHUANG: draw_text(x,y,"庄家"); break;
+    case XIAN: draw_text(x,y,"闲家"); break;
+    case HE: draw_text(x,y,"和"); break;
     default : draw_text(x,y,"00"); break;
 }
 </string>

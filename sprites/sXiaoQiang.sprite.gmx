@@ -20,8 +20,7 @@
   <width>16</width>
   <height>16</height>
   <frames>
-    <frame index="0">images\sprite2_0.png</frame>
-    <frame index="1">images\sprite2_1.png</frame>
-    <frame index="2">images\sprite2_2.png</frame>
+    <frame index="0">images\sXiaoQiang_0.png</frame>
+    <frame index="1">images\sXiaoQiang_1.png</frame>
   </frames>
 </sprite>

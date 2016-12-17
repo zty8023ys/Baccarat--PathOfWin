@@ -651,7 +651,11 @@
     <option_xbone_title_id>1234ABCD</option_xbone_title_id>
   </Options>
   <ConfigConstants>
-    <constants number="9">
+    <constants number="13">
+      <constant name="XIAOQIANG">3</constant>
+      <constant name="SMALL">2</constant>
+      <constant name="BIGEYE">1</constant>
+      <constant name="MAXCOL">100</constant>
       <constant name="ZHUPAN">0</constant>
       <constant name="BIG">1</constant>
       <constant name="RED">0</constant>
